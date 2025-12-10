@@ -1,0 +1,3 @@
+.env/*
+.__pycache__/
+./newshub_log_analyzer/__pycache__/
