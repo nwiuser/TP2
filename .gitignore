@@ -1,3 +1,22 @@
 .env/*
 .__pycache__/
 ./newshub_log_analyzer/__pycache__/
+
+# Large log files (>100MB)
+newshub_log_analyzer/access.log
+*.log
+
+# Generated reports
+newshub_log_analyzer/reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
