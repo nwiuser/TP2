@@ -16,7 +16,7 @@ def main():
     print("="*70)
 
     # Use sample log file
-    log_file = 'sample_access.log'
+    log_file = 'access.log'
     
     if not os.path.exists(log_file):
         print(f"❌ Error: Log file not found at {log_file}")
